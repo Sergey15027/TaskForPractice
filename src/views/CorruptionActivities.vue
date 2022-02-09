@@ -76,10 +76,10 @@
                 <div class="rightBox">
                     <div class="backFooterRight">
                         <div class="SecondBoxFoot">
-                            <span class="down">МЕРОПРИЯТИЯ ПО ПРОТИВОДЕЙСТВИЮ КОРРУПЦИИ</span>
+                            <span>МЕРОПРИЯТИЯ ПО ПРОТИВОДЕЙСТВИЮ КОРРУПЦИИ</span>
                         </div>
                     </div>
-                    <div>
+                    <div class="down">
                         <spanp class="hedr">“Час добропорядочности”</spanp>
                         <br>
                         <span class="fotr">мероприятие направлено на разъяснение о коррупции и методах противодействия в университете. </span>
@@ -100,6 +100,7 @@
 @import '/src/assets/index.css';
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&family=Roboto:ital,wght@0,300;1,300&display=swap');
 
+*{margin:0; padding:0;}
 .header-text {
     font-family: 'Roboto Slab', serif;
     font-size: 170%;
@@ -117,13 +118,16 @@
     margin-right:1px;
 }
 .rightBox{
-    width:50%;
+    width:54%;
     margin-left:1px;
 }
 .CorruptionText{
     color:white;
     display:flex;
     justify-content: space-around;
+    padding-top:0.5%;
+    padding-bottom:0.5%;
+    text-align: center;
 }
 .CorruptionFlex{
     display:flex;
@@ -166,10 +170,8 @@
     font-weight:900;
     color:white;
     text-align: center;
-}
-.down{
-    padding-top:10%;
-    padding-bottom:10%;
+    padding-top:1.5%;
+    padding-bottom:1.5%;
 }
 .boxes{
     margin-top:4%;
@@ -195,5 +197,8 @@
     font-size: 95%;
     font-weight:100;
     color:blue;
+}
+.down{
+    margin-top: 4%;
 }
 </style>

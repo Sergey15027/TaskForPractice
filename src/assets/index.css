@@ -83,7 +83,7 @@
 	margin:0 auto;
 }
 .Corruption-container{
-	width:97%;
+	width:95%;
 	margin:0 auto;
 }
 
@@ -238,4 +238,9 @@
 
 
 
+/*all*/
+.header-text{
+	margin-top:2%;
+	margin-bottom:2%;
+}
 
