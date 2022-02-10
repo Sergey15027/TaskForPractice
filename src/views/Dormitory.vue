@@ -99,12 +99,12 @@
                             </div>
                         </div>
                         <div class="Indent">
-                            <div>
-                                <div>
-                                     <span>Месячная оплата при длительном проживании</span>
+                            <table border="1" border-color="black" class="Table">
+                                <div class="BackgroundIndent">
+                                    <div class="TextIndent">
+                                        <span>Месячная оплата при длительном проживании</span>
+                                    </div>
                                 </div>
-                            </div>
-                            <table border="1" border-color="black">
                                 <tr> 
                                     <th rowspan="2">Категория жильцов</th>
                                     <th colspan="2">Стоимость проживания в общежитии № 1,тг.</th>
@@ -112,16 +112,92 @@
                                     <th colspan="2">Стоимость проживания в общежитии № 3,тг.</th>
                                 </tr>
                                 <tr>
-                                    <td>Test</td>
-                                    <td>Test</td>
+                                    <td>2-мест.</td>
+                                    <td>4-мест.</td>
+                                    <td>2-мест.</td>
+                                    <td>3-мест.</td>
+                                    <td>4-мест.</td>
+                                    <td>2-мест.</td>
+                                    <td>4-мест.</td>
                                 </tr>
-                               <tr>
-                                   <td>ffe</td>
-                                   <td>qdf</td>
-                               </tr>
+                                <tr>
+                                    <td>Колледж</td>
+                                    <td>14 000</td>
+                                    <td>9 000</td>
+                                    <td>17 500</td>
+                                    <td>13 500</td>
+                                    <td>11 500</td>
+                                    <td>14 000</td>
+                                    <td>8 000</td>
+                                </tr>
+                                <tr>
+                                    <td>Бакалавриат,магистратура,докторантура</td>
+                                    <td>18 000</td>
+                                    <td>12 000</td>
+                                    <td>26 000</td>
+                                    <td>24 000</td>
+                                    <td>22 000</td>
+                                    <td>21 000</td>
+                                    <td>15 000</td>
+                                </tr>
+                                <tr>
+                                    <td>Работники АУЭС</td>
+                                    <td>30 000</td>
+                                    <td>18 000</td>
+                                    <td>33 500</td>
+                                    <td>27 500</td>
+                                    <td>23 500</td>
+                                    <td>30 000</td>
+                                    <td>20 000</td>
+                                </tr>
+                                <tr>
+                                    <td>Иные</td>
+                                    <td>35 000</td>
+                                    <td>20 000</td>
+                                    <td>38 500</td>
+                                    <td>33 500</td>
+                                    <td>25 500</td>
+                                    <td>35 000</td>
+                                    <td>22 000</td>
+                                </tr>
+                                
+                                <div class="BackgroundIndent">
+                                    <div class="TextIndent">
+                                        <span>Суточная оплата при кратковременном проживании (при наличии свободных мест)</span>
+                                    </div>
+                                </div>
+                            
+                            <tr>
+                                   <td>Абитуриенты</td> 
+                                   <td>3000</td>
+                                   <td>1500</td>
+                                   <td>3500</td>
+                                   <td>3000</td>
+                                   <td>2500</td>
+                                   <td>3000</td>
+                                   <td>2000</td>
+                                </tr>
+                                 <tr>
+                                   <td>Родители и родственники обучающихся</td> 
+                                   <td>4000</td>
+                                   <td>2000</td>
+                                   <td>4500</td>
+                                   <td>3500</td>
+                                   <td>3000</td>
+                                   <td>4000</td>
+                                   <td>2500</td>
+                                </tr>
+                                 <tr>
+                                   <td>Иные</td> 
+                                   <td>7000</td>
+                                   <td>3000</td>
+                                   <td>7500</td>
+                                   <td>6500</td>
+                                   <td>4500</td>
+                                   <td>7000</td>
+                                   <td>4000</td>
+                                </tr>
                             </table>
-                            <span></span>
-                            <table></table>
                         </div>
                     </div>
                     <div class="BpttomFooter">
@@ -130,26 +206,41 @@
                                 <span>Адреса общежития</span>
                             </div>
                         </div>
-                            <div class="Indent">
-                                <span>Общежитие №1</span>
-                                <br>
-                                <span>г.Алматы, ул. Политехническая, 1</span>
-                                <br>
-                                <span>тел.: +7 (727) 292 90 93</span>
-
+                        <div class="flexFooter">
+                                <div class="IndentFoot">
+                                    <span class="BigTextDormitory">Общежитие №1</span>
                                     <br>
-
-                                <p>Общежитие №2</p>
-                                <span>г.Алматы, ул. Зеина Шашкина, 14а</span>
-                                <br>
-                                <span>тел.: +7 (727) 292 90 93</span>
-
+                                    <span>г.Алматы, ул. Политехническая, 1</span>
                                     <br>
+                                    <span>тел.: +7 (727) 292 90 93</span>
 
-                                <p>Общежитие №3</p>
-                                <span>г.Алматы, ул. Зеина Шашкина, 14</span>
+                                        <br>
+                                        <br>
+
+                                    <p class="BigTextDormitory">Общежитие №2</p>
+                                    <span>г.Алматы, ул. Зеина Шашкина, 14а</span>
+                                    <br>
+                                    <span>тел.: +7 (727) 292 90 93</span>
+
+                                        <br>
+                                        <br>
+
+                                    <p class="BigTextDormitory">Общежитие №3</p>
+                                    <span>г.Алматы, ул. Зеина Шашкина, 14</span>
+                                    <br>
+                                    <span>тел.: +7 (727) 264 16 84</span>
+                            </div>
+                            <div class="link">
+                                <span class="BigTextDormitory">По вопросам:</span>
                                 <br>
-                                <span>тел.: +7 (727) 264 16 84</span>
+                                <br>
+                                <p>Демчук Кирилл</p>
+                                <a href="#"><span>k.demchuk@aues.kz </span></a>
+                                <br>
+                                <br>
+                                <p>Каракесов Мансур</p>
+                                <a href="#"><span>m.karakesov@aues.kz</span></a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -224,4 +315,42 @@
     border:2px;
     border-color:black;
 }
+.Table{
+    color:blue;
+    font-family: 'Roboto Slab', serif;
+}
+.TextIndent{
+    color:white;
+}
+table > div{
+    background-color:blue;
+    width: 208%;
+}
+table > .BackgroundIndent{
+    text-align:center;
+}
+.IndentFoot{
+    margin-top:2%;
+    color:blue;
+}
+.BigTextDormitory{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+}
+.link{
+    color:blue;
+    margin-top: 2%;
+}
+.link > a{
+    text-decoration:none;
+    color:blue;
+}
+.flexFooter{
+    display:flex;
+    justify-content:space-between;
+}
 </style>
+
+
+
+

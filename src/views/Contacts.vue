@@ -2,7 +2,7 @@
     <div class="Main-block">
         <div class="First-block container">
             <div class="header-text">
-                <p>Контакты</p>
+                <p>Студенческие мероприятия</p>
             </div>
             <div class="socialNetworks">
                 <div class="Instagram">
@@ -19,14 +19,17 @@
                 </div>
             </div>
         </div>
-        <div class="Second-block"></div>
+        <div class="Second-block">
+            <div>Now you can work:D</div>
+        </div>
     </div>
 </template>
+
+
 
 <style>
 @import '/src/assets/index.css';
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&family=Roboto:ital,wght@0,300;1,300&display=swap');
-
 .header-text {
     font-family: 'Roboto Slab', serif;
     font-size: 170%;
